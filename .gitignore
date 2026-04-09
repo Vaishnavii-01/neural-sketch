@@ -1,0 +1,28 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets
+data/
+
+# Trained Models (H5 files are large binary blobs)
+*.h5
+models/
+
+# Temporary and Generated Files
+temp.png
+confusion_matrix.png
+samples/
+
+# Node.js dependencies (will be created after npm install)
+node_modules/
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db

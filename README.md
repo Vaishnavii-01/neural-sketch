@@ -27,7 +27,8 @@
 The system is trained on the **Google "Quick, Draw!" Open Dataset**.
 * **Classes :** 15 Fruits & Vegetables (Apple, Banana, Broccoli, Carrot, Pineapple, etc.).
 * **Training Samples :** 75,000 unique sketches ($5,000$ samples per class).
-* **Preprocessing Pipeline :** * Grayscale normalization ($0$ to $1$) for gradient stability.
+* **Preprocessing Pipeline :**
+    * Grayscale normalization ($0$ to $1$) for gradient stability.
     * $28 \times 28$ tensor reshaping.
     * Bitwise inversion for white-on-black consistency required by CNN kernels.
 * **Regularization :** Dropout (0.4) implemented to mitigate overfitting and improve model generalization on messy user inputs.
